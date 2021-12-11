@@ -5,7 +5,7 @@ import Portfolio from "./components/Portfolio";
 
 const Main = () => {
     return (
-        <div className={"grid grid-cols-6 gap-8"}>
+        <div>
             <Landing></Landing>
             <About></About>
             <Portfolio></Portfolio>
