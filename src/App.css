@@ -2,3 +2,125 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradientText {
+    background-image: linear-gradient( 90deg, rgb(255, 75, 129), rgb(86, 76, 255), rgb(38, 218, 255), rgb(76, 255, 136) );
+    background-size: 400% 100%;
+    
+    background-clip: text;
+    color: transparent;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rotateColor {
+    animation: rotateColor 15s infinite alternate;
+    -webkit-animation: rotateColor 15s infinite alternate;
+}
+
+.rotateColor25 {
+    animation: rotateColor25 15s infinite alternate;
+    -webkit-animation: rotateColor25 15s infinite alternate-reverse;
+}
+
+.rotateColor50 {
+    animation: rotateColor50 15s infinite alternate;
+    -webkit-animation: rotateColor50 15s infinite alternate;
+}
+
+.rotateColor75 {
+    animation: rotateColor75 15s infinite alternate;
+    -webkit-animation: rotateColor75 15s infinite alternate-reverse;
+}
+
+@keyframes rotateColor {
+    0% {
+        filter: hue-rotate(-110deg);
+    } 50% {
+        filter: hue-rotate(30deg);
+    } 100% {
+        filter: hue-rotate(-110deg);
+    }
+}
+
+@-webkit-keyframes rotateColor {
+    0% {
+        -webkit-filter: hue-rotate(-110deg);
+    } 50% {
+        -webkit-filter: hue-rotate(30deg);
+    } 100% {
+        -webkit-filter: hue-rotate(-110deg);
+    }
+}
+
+@keyframes rotateColor25 {
+    0% {
+        filter: hue-rotate(-75deg);
+    } 37.5% {
+        filter: hue-rotate(30deg);
+    } 87.5% {
+        filter: hue-rotate(-110deg);
+    } 100% {
+        filter: hue-rotate(-75deg);
+    }
+}
+
+@-webkit-keyframes rotateColor25 {
+    0% {
+        -webkit-filter: hue-rotate(-75deg);
+    } 37.5% {
+        -webkit-filter: hue-rotate(30deg);
+    } 87.5% {
+        -webkit-filter: hue-rotate(-110deg);
+    } 100% {
+        -webkit-filter: hue-rotate(-75deg);
+    }
+}
+
+@keyframes rotateColor50 {
+    0% {
+        filter: hue-rotate(-40deg);
+    } 25% {
+        filter: hue-rotate(30deg);
+    } 75% {
+        filter: hue-rotate(-110deg);
+    } 100% {
+        filter: hue-rotate(-40deg);
+    }
+}
+
+@-webkit-keyframes rotateColor50 {
+    0% {
+        -webkit-filter: hue-rotate(-40deg);
+    } 25% {
+        -webkit-filter: hue-rotate(30deg);
+    } 75% {
+        -webkit-filter: hue-rotate(-110deg);
+    } 100% {
+        -webkit-filter: hue-rotate(-40deg);
+    }
+}
+
+@keyframes rotateColor75 {
+    0% {
+        filter: hue-rotate(-5deg);
+    } 12.5% {
+        filter: hue-rotate(30deg);
+    } 62.5% {
+        filter: hue-rotate(-110deg);
+    } 100% {
+        filter: hue-rotate(-5deg);
+    }
+}
+
+@-webkit-keyframes rotateColor75 {
+    0% {
+        -webkit-filter: hue-rotate(-5deg);
+    } 12.5% {
+        -webkit-filter: hue-rotate(30deg);
+    } 62.5% {
+        -webkit-filter: hue-rotate(-110deg);
+    } 100% {
+        -webkit-filter: hue-rotate(-5deg);
+    }
+}
