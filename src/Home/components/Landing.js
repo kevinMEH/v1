@@ -1,18 +1,18 @@
 const Landing = () => {
-    
 	return (
         <div className="flex-col w-full my-32">
             <h1 className="text-2xl font-semibold tracking-wider text-black">
                 Hello! 👋
             </h1>
-            <h2 className="text-3xl font-extrabold tracking-wide leading-loose gradientText rotateColor">I'm Kevin,</h2> 
+            <h2 className="text-4xl font-extrabold tracking-wide leading-relaxed gradientText rotateColor">I'm Kevin,</h2> 
             <p className="text-gray-500">
                 a web and software developer based in Brooklyn. I
                 specialize in creating unique and memorable web experiences.
             </p>
-            <a href="https://github.com/kevinMEH" className="inline-block bg-transparent py-3 px-6 my-5 font-semibold text-indigo-500 border border-indigo-500 rounded-md">
-                Link to Github!
-            </a>
+            <div className="my-5">
+                <img className="rounded-xl h-48 w-full" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1740&q=80" alt="Landing" /> 
+                {/* TODO: Replace placeholder with actual image */}
+            </div>
         </div>
 	);
 };
