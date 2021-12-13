@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
 	return (
-        <div className="container mx-auto p-8">
+        <div className="container mx-auto py-8 px-9">
             <Nav></Nav>
             <Main></Main>
             {/* <Footer></Footer> */}
