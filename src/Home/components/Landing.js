@@ -4,7 +4,7 @@ const Landing = () => {
             <h1 className="text-2xl font-semibold tracking-wider text-black">
                 Hello! 👋
             </h1>
-            <h2 className="text-4xl font-extrabold tracking-wide leading-relaxed gradientText rotateColor">I'm Kevin,</h2> 
+            <h1 className="text-4xl font-extrabold tracking-wide leading-relaxed gradientText rotateColor">I'm Kevin,</h1> 
             <p className="text-gray-500">
                 a web and software developer based in Brooklyn. I
                 specialize in creating unique and memorable web experiences.
