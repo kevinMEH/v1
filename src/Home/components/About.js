@@ -1,48 +1,23 @@
-import Title from "./Title";
-
 const About = () => {
     return (
         <div className="flex-col w-full my-32">
-            <Title text="About Me" rotateColor="25" />
-            <div className="text-gray-500 text-sm space-y-3 text-justify">
+            <h1 className="text-2xl font-bold tracking-wide leading-loose gradientText rotateColor25">About Me</h1>
+            <div className="text-gray-500 text-sm space-y-3">
                 <p> 
-                    Hello! I'm Kevin Liao, a software
+                    Hello! I'm Kevin Liao, a computer science student and software
                     engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit.
                 </p>
-                <div className="border border-indigo-500 rounded-xl p-5 text-left">
-                    <h2 className="font-bold text-lg gradientText rotateColor mb-4 text-center">
-                        Development Tools
-                    </h2>
-                    <div className="space-y-4">
-                        <div className="border border-indigo-200 rounded-lg py-3 px-5">
-                            <h3 className="font-semibold text-base mb-2">Front End Development</h3>
-                            <ul className="ml-7 list-disc">
-                                <li>HTML & CSS</li>
-                                <li>JavaScript</li>
-                                <li>TypeScript</li>
-                                <li>React</li>
-                                <li>Tailwind CSS</li>
-                            </ul>
-                        </div>
-                        <div className="border border-indigo-200 rounded-lg py-3 px-5">
-                            <h3 className="font-semibold text-base mb-2">Backend + Other Tools</h3>
-                            <ul className="ml-7 list-disc">
-                                <li>NodeJS</li>
-                                <li>Java</li>
-                                <li>Rust</li>
-                            </ul>
-                        </div>
-                        <div className="border border-indigo-200 rounded-lg py-3 px-5">
-                            <h3 className="font-semibold text-base mb-2">Other Tools</h3>
-                            <ul className="ml-7 list-disc">
-                                <li>Adobe Photoshop</li>
-                                <li>Adobe After Effects</li>
-                                <li>Framer and Adobe XD (And other UI/UX design tools)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <p>
+                    Pellentesque id nisi sit amet sapien convallis fermentum eu gravida 
+                    sapien. Pellentesque magna lorem, consequat vitae nibh ac, lacinia 
+                    venenatis dui.
+                </p>
+                <p>
+                    Donec luctus, nunc et ornare egestas, dui purus semper lacus, a 
+                    feugiat purus arcu ut turpis. Sed eleifend scelerisque justo, a 
+                    scelerisque urna pharetra id.
+                </p>
             </div>
         </div>
     );
