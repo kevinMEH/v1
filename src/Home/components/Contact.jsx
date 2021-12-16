@@ -1,6 +1,6 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
-import Title from "./Title";
+import Title from "./subcomponents/Title";
 
 const Contact = () => {
     // TODO:

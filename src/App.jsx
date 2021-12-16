@@ -1,3 +1,5 @@
+import React from "react";
+
 import Nav from "./Home/Nav";
 import Main from "./Home/Main";
 // import Footer from "./Home/Footer";
