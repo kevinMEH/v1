@@ -46,4 +46,22 @@ const About = () => {
     );
 }
 
+const List = ( { title, items } ) => {
+    let listItems = [];
+    for(let item of items) {
+        listItems.push(<li>{item}</li>);
+    }
+    
+    return (
+        <>
+            <h3 className="font-medium text-base">{title}</h3>
+            <div className="border-b pb-4">
+                <ul className="ml-7 list-disc">
+                    {listItems}
+                </ul>
+            </div>
+        </>
+    )
+}
+
 export default About;
