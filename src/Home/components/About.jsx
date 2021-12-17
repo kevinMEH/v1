@@ -9,8 +9,6 @@ const About = () => {
             <p>
                 Hello! I'm Kevin Liao, a software
                 engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
-                    engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
-                engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit.
             </p>
             <div className="border border-blue-500 border-opacity-50 rounded-xl text-left overflow-hidden">
