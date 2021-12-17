@@ -12,7 +12,13 @@ const About = () => {
                     engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit.
                 </p>
-                <div className="border border-indigo-500 border-opacity-25 rounded-xl p-5 text-left overflow-hidden shadow-xl shadow-indigo-500/50">
+                <div className="flex-none border-b border-blue-500/50">
+                    <div className="flex items-center h-7 space-x-2 pl-3.5">
+                        <div className="w-3 h-3 bg-red-400 rounded-full hover:bg-red-500 cursor-pointer"></div>
+                        <div className="w-3 h-3 bg-yellow-400 rounded-full hover:bg-yellow-500 cursor-pointer"></div>
+                        <div className="w-3 h-3 bg-green-400 rounded-full hover:bg-green-500 cursor-pointer"></div>
+                    </div>
+                </div>
                     <div className="">
                         <h2 className="font-bold text-lg gradientText rotateColor mb-4 text-center">
                             Development Tools
