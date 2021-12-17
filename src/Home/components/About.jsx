@@ -28,26 +28,15 @@ const About = () => {
                         </h2>
                     </div>
                     <div className="space-y-4 ml-4">
-                        <h3 className="font-semibold text-base">Front End Development</h3>
-                        <ul className="ml-7 list-disc">
-                            <li>HTML & CSS</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>React</li>
-                            <li>Tailwind CSS</li>
-                        </ul>
-                        <h3 className="font-semibold text-base">Backend + Other Tools</h3>
-                        <ul className="ml-7 list-disc">
-                            <li>NodeJS</li>
-                            <li>Java</li>
-                            <li>Rust</li>
-                        </ul>
-                        <h3 className="font-semibold text-base">Other Tools</h3>
-                        <ul className="ml-7 list-disc">
-                            <li>Adobe Photoshop</li>
-                            <li>Adobe After Effects</li>
-                            <li>Framer and Adobe XD (And other UI/UX design tools)</li>
-                        </ul>
+                        <List title="Frontend Development" items={
+                            ["JavaScript", "TypeScript", "React", "TailwindCSS"]
+                        } />
+                        <List title="Backend Development" items={
+                            ["NodeJS", "Java", "Rust"]
+                        } />
+                        <List title="Other Tools" items={
+                            ["Adobe Photoshop", "Adobe After Effects", "Figma, Framer, and other UI/UX design tools"]
+                        } />
                     </div>
                 </div>
             </div>
