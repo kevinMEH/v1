@@ -1,17 +1,19 @@
-import React from 'react';
+import React from "react";
 
 import Title from "./subcomponents/Title";
 
 const About = () => {
     return (
-        <div className="flex-col w-full my-32">
+        <div className="flex-col w-full my-32 space-y-4 text-gray-500 text-sm text-justify">
             <Title text="About Me" rotateColor="25" />
-            <div className="text-gray-500 text-sm space-y-3 text-justify">
-                <p>
-                    Hello! I'm Kevin Liao, a software
+            <p>
+                Hello! I'm Kevin Liao, a software
+                engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
                     engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit.
-                </p>
+                engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit.
+            </p>
+            <div className="border border-blue-500 border-opacity-50 rounded-xl text-left overflow-hidden">
                 <div className="flex-none border-b border-blue-500/50">
                     <div className="flex items-center h-7 space-x-2 pl-3.5">
                         <div className="w-3 h-3 bg-red-400 rounded-full hover:bg-red-500 cursor-pointer"></div>
@@ -19,8 +21,9 @@ const About = () => {
                         <div className="w-3 h-3 bg-green-400 rounded-full hover:bg-green-500 cursor-pointer"></div>
                     </div>
                 </div>
+                <div className="p-5 font-mono">
                     <div className="">
-                        <h2 className="font-bold text-lg gradientText rotateColor mb-4 text-center">
+                        <h2 className="font-semibold text-lg text-indigo-500 mb-4 text-center">
                             Development Tools
                         </h2>
                     </div>
