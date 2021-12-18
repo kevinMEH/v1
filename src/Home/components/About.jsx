@@ -12,8 +12,8 @@ const About = () => {
                 adipiscing elit.
             </p>
             
-            <div className="border border-blue-500 border-opacity-50 rounded-xl text-left overflow-hidden bg-white shadow-xl shadow-black/5">
-                <div className="flex-none border-b border-blue-500/50">
+            <div className="rounded-xl text-left overflow-hidden bg-white shadow-xl shadow-black/5">
+                <div className="flex-none border-b border-blue-500/10">
                     <div className="flex items-center h-7 space-x-2 pl-3.5">
                         <div className="w-3 h-3 bg-red-400 rounded-full hover:bg-red-500 cursor-pointer"></div>
                         <div className="w-3 h-3 bg-yellow-400 rounded-full hover:bg-yellow-500 cursor-pointer"></div>
