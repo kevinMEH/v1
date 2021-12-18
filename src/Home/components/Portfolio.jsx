@@ -4,7 +4,7 @@ import Title from "./subcomponents/Title";
 
 const Portfolio = () => {
     return (
-        <div className="flex-col w-full my-32 space-y-4">
+        <div className="flex-col w-full space-y-4">
             <Title text="Selected Works" color="text-teal-500" />
             <Card title="Portfolio" desc="Check out the source code for this portfolio!"
             // TODO: replace placeholder

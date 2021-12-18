@@ -4,7 +4,7 @@ import Title from "./subcomponents/Title";
 
 const About = () => {
     return (
-        <div className="flex-col w-full my-32 space-y-4 text-gray-500 text-sm text-justify">
+        <div className="flex-col w-full space-y-4 text-gray-500 text-sm text-justify">
             <Title text="About Me" color="text-blue-500" />
             <p>
                 Hello! I'm Kevin Liao, a software

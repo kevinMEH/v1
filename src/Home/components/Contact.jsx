@@ -26,7 +26,7 @@ const Contact = () => {
     // }
     
     return (
-        <div className="flex-col w-full my-32">
+        <div className="flex-col w-full">
             <Title text="Lets start working!" color="text-pink-500" />
             <p className="text-gray-500 text-sm my-4 text-justify">
                 I'm always looking for opportunities to work on new projects. If you'd like to work with me, press the button below and I'll get back to you as soon as possible!
