@@ -8,10 +8,12 @@ import "./App.css";
 
 function App() {
 	return (
-        <div className="container mx-auto py-8 px-9 graphBg">
-            <Nav></Nav>
-            <Main></Main>
-            <Footer></Footer>
+        <div className="graphBg">
+            <div className="container py-8 px-8 m-0 mx-auto">
+                <Nav></Nav>
+                <Main></Main>
+                <Footer></Footer>
+            </div>
         </div>
     );
 }
