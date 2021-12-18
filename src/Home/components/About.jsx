@@ -30,9 +30,11 @@ const About = () => {
                         <List title="Frontend Development" items={
                             ["JavaScript", "TypeScript", "React", "TailwindCSS"]
                         } />
+                        <div className="border-b !mt-0"></div>
                         <List title="Backend Development" items={
                             ["NodeJS", "Java", "Rust"]
                         } />
+                        <div className="border-b !mt-0"></div>
                         <List title="Other Tools" items={
                             ["Adobe Photoshop", "Adobe After Effects", "Figma, Framer, and other UI/UX design tools"]
                         } />
@@ -52,7 +54,7 @@ const List = ( { title, items } ) => {
     return (
         <>
             <h3 className="font-medium text-base ml-3">{title}</h3>
-            <div className="border-b pb-4">
+            <div className="pb-4">
                 <ul className="ml-10 list-disc">
                     {listItems}
                 </ul>
