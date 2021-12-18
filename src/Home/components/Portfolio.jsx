@@ -29,12 +29,12 @@ const Card = ({title, desc, image, url, tags}) => {
     }
     
     return (
-        <div className="rounded-xl overflow-hidden text-gray-500 bg-white">
+        <div className="rounded-xl overflow-hidden text-gray-500 bg-white shadow-xl shadow-black/5">
             <a href={url} >
                 <img className="h-48 w-full"
                     src={image} />
             </a>
-            <div className="p-5 space-y-2 rounded-b-xl border-x border-b border-teal-500/50">
+            <div className="p-5 space-y-2 rounded-b-xl">
                 <a href={url}>
                     <h3 className="font-semibold font-mono text-lg text-teal-500">{title}</h3>
                 </a>
