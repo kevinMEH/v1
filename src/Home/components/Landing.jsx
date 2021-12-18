@@ -11,10 +11,8 @@ const Landing = () => {
                 a web and software developer based in Brooklyn. I
                 specialize in creating unique and memorable web experiences.
             </p>
-            <div className="my-5">
-                <img className="rounded-xl h-48 w-full" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1740&q=80" alt="Landing" /> 
-                {/* TODO: Replace placeholder with actual image */}
-            </div>
+            <img className="my-5 shadow-xl shadow-black/5 rounded-xl h-48 w-full" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1740&q=80" alt="Landing" /> 
+            {/* TODO: Replace placeholder with actual image */}
         </div>
 	);
 };

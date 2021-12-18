@@ -37,7 +37,7 @@ const Contact = () => {
             <div className="flex justify-center">
                 <a 
                     href="mailto:hello@liao.gg" rel="noopener noreferrer" target="_blank"
-                    className="bg-transparent border border-pink-500 text-pink-500 hover:bg-pink-50 font-medium py-3 px-6 rounded-md inline-block">
+                    className="text-pink-500 bg-pink-50 hover:bg-pink-100 font-medium py-3 px-6 rounded-md inline-block">
                     Email Me!
                 </a>
             </div>
