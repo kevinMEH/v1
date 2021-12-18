@@ -1,9 +1,8 @@
 import React from 'react';
 
-const Title = ({text, rotateColor}) => {
+const Title = ({text, color}) => {
     return (
-        <h1 className={"text-2xl font-bold tracking-wide leading-loose text-center gradientText "
-                        + ("rotateColor" + rotateColor)}>
+        <h1 className={"text-2xl font-bold tracking-wide text-center " + color}>
             {text}
         </h1>
     );
