@@ -5,13 +5,13 @@ import Title from "./subcomponents/Title";
 const About = () => {
     return (
         <div className="flex-col w-full my-32 space-y-4 text-gray-500 text-sm text-justify">
-            <Title text="About Me" rotateColor="25" />
+            <Title text="About Me" color="text-blue-500" />
             <p>
                 Hello! I'm Kevin Liao, a software
                 engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit.
             </p>
-            <div className="border border-blue-500 border-opacity-50 rounded-xl text-left overflow-hidden">
+            <div className="border border-blue-500 border-opacity-50 rounded-xl text-left overflow-hidden bg-white">
                 <div className="flex-none border-b border-blue-500/50">
                     <div className="flex items-center h-7 space-x-2 pl-3.5">
                         <div className="w-3 h-3 bg-red-400 rounded-full hover:bg-red-500 cursor-pointer"></div>
@@ -21,11 +21,11 @@ const About = () => {
                 </div>
                 <div className="p-5 font-mono">
                     <div className="">
-                        <h2 className="font-semibold text-lg text-indigo-500 mb-4 text-center">
+                        <h2 className="font-semibold text-lg text-blue-500 mb-4 text-center">
                             Development Tools
                         </h2>
                     </div>
-                    <div className="space-y-4 ml-4">
+                    <div className="space-y-4">
                         <List title="Frontend Development" items={
                             ["JavaScript", "TypeScript", "React", "TailwindCSS"]
                         } />
@@ -50,9 +50,9 @@ const List = ( { title, items } ) => {
     
     return (
         <>
-            <h3 className="font-medium text-base">{title}</h3>
+            <h3 className="font-medium text-base ml-3">{title}</h3>
             <div className="border-b pb-4">
-                <ul className="ml-7 list-disc">
+                <ul className="ml-10 list-disc">
                     {listItems}
                 </ul>
             </div>

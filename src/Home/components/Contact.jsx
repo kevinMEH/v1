@@ -27,8 +27,8 @@ const Contact = () => {
     
     return (
         <div className="flex-col w-full my-32">
-            <Title text="Lets start working!" rotateColor={"75"} />
-            <p className="text-gray-500 text-sm mb-4 text-justify">
+            <Title text="Lets start working!" color="text-pink-500" />
+            <p className="text-gray-500 text-sm my-4 text-justify">
                 I'm always looking for opportunities to work on new projects. If you'd like to work with me, press the button below and I'll get back to you as soon as possible!
             </p>
             {/* TODO:
@@ -37,7 +37,7 @@ const Contact = () => {
             <div className="flex justify-center">
                 <a 
                     href="mailto:hello@liao.gg" rel="noopener noreferrer" target="_blank"
-                    className="bg-transparent border border-indigo-500 text-indigo-500 font-medium py-3 px-6 rounded-md inline-block">
+                    className="bg-transparent border border-pink-500 text-pink-500 font-medium py-3 px-6 rounded-md inline-block">
                     Email Me!
                 </a>
             </div>
