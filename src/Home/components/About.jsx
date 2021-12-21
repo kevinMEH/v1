@@ -15,7 +15,7 @@ const About = () => {
                     adipiscing elit.
                 </p>
                 <h2 className="text-base md:text-lg">Here are some of the technologies I work with:</h2>
-                <div className="md:flex md:justify-between md:mx-12">
+                <div className="space-y-3 md:flex md:justify-between md:mx-12">
                     <List title="Frontend:" items={["JavaScript", "TypeScript", "React", "Tailwind"]} />
                     <List title="Backend:" items={["NodeJS", "Java", "Rust"]} />
                     <List title="Design:" items={["Photoshop", "After Effects", "Framer", "UI/UX tools"]} />
@@ -34,7 +34,7 @@ const List = ( { title, items } ) => {
     return (
         <div className="text-base space-y-2 md:flex-1 md:text-lg">
             <h3 className="font-semibold">{title}</h3>
-            <ul className="ml-10 md:ml-5 list-disc font-medium">
+            <ul className="ml-10 md:ml-5 list-disc font-medium space-y-1 md:space-y-0">
                 {listItems}
             </ul>
         </div>
