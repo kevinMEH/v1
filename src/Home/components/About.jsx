@@ -15,7 +15,7 @@ const About = () => {
                     adipiscing elit.
                 </p>
                 <h2 className="text-base md:text-lg">Here are some of the technologies I work with:</h2>
-                <div className="space-y-3 md:flex md:justify-between md:mx-12">
+                <div className="space-y-3 md:space-y-0 md:flex md:justify-between md:mx-12">
                     <List title="Frontend:" items={["JavaScript", "TypeScript", "React", "Tailwind"]} />
                     <List title="Backend:" items={["NodeJS", "Java", "Rust"]} />
                     <List title="Design:" items={["Photoshop", "After Effects", "Framer", "UI/UX tools"]} />
