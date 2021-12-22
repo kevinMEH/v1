@@ -28,7 +28,8 @@ const Contact = () => {
     return (
         <div className="flex-col w-full">
             <Title text="Lets start working!" color="text-pink-500" />
-            <p className="text-gray-500 text-sm my-4 text-justify">
+            <p className="text-gray-500 my-4 text-justify
+            text-sm md:text-base pb-3 md:py-4">
                 I'm always looking for opportunities to work on new projects. If you'd like to work with me, press the button below and I'll get back to you as soon as possible!
             </p>
             {/* TODO:
@@ -37,7 +38,8 @@ const Contact = () => {
             <div className="flex justify-center">
                 <a 
                     href="mailto:hello@liao.gg" rel="noopener noreferrer" target="_blank"
-                    className="text-pink-500 bg-pink-50 hover:bg-pink-100 font-medium py-3 px-6 rounded-md inline-block">
+                    className="text-pink-500 bg-pink-50 hover:bg-pink-100 inline-block
+                    font-medium py-3 px-6 rounded-md md:text-lg md:rounded-lg">
                     Email Me!
                 </a>
             </div>
