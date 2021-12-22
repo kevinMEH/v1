@@ -9,7 +9,7 @@ const About = () => {
         md:flex md:flex-row-reverse md:space-x-reverse md:space-x-12">
             <div className="md:flex-1 space-y-4 text-left">
                 <Title text="About Me" color="text-blue-500" />
-                <p>
+                <p className="md:py-4">
                     Hello! I'm Kevin Liao, a software
                     engineer from Brooklyn. Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit.
