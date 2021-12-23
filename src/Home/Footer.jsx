@@ -2,7 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="flex justify-between text-sm md:text-base lg:text-lg gradientText rotateColor">
+        <div className="flex justify-between
+        text-sm md:text-base lg:text-lg
+        pt-10 md:pt-16 lg:pt-24
+        gradientText rotateColor">
             <div>
                 <p>© 2021 kevinMEH</p>
             </div>

@@ -10,8 +10,8 @@ function App() {
 	return (
         <div className="graphBg">
             <div className="container m-0 mx-auto
-            p-8 md:py-14 md:px-16 lg:px-18
-            space-y-32 lg:space-y-64">
+            p-8 md:py-14 lg:pt-10 md:px-20 lg:px-24
+            space-y-36 md:space-y-28 lg:space-y-20">
                 <Nav></Nav>
                 <Main></Main>
                 <Footer></Footer>
